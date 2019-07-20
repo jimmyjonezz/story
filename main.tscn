@@ -24,7 +24,6 @@ margin_top = 40.0
 margin_right = 531.778
 margin_bottom = 193.0
 custom_fonts/font = SubResource( 1 )
-text = "dfdfd df ddfgfd gf dfgfd dfg dgd fdfg dg dfgd fgd dfgdg"
 autowrap = true
 clip_text = true
 uppercase = true
@@ -59,6 +58,7 @@ __meta__ = {
 }
 
 [node name="labels" type="Control" parent="gui"]
+editor/display_folded = true
 margin_right = 40.0
 margin_bottom = 40.0
 
@@ -87,15 +87,18 @@ custom_fonts/font = ExtResource( 3 )
 text = "Где?"
 
 [node name="lines" type="Control" parent="gui"]
+editor/display_folded = true
 margin_right = 40.0
 margin_bottom = 40.0
 
 [node name="line1" type="LineEdit" parent="gui/lines"]
-margin_left = 40.0
+margin_left = 39.4013
 margin_top = 290.129
-margin_right = 260.173
+margin_right = 259.574
 margin_bottom = 318.129
 custom_fonts/font = ExtResource( 3 )
+placeholder_text = "Мальчик"
+caret_blink = true
 
 [node name="line2" type="LineEdit" parent="gui/lines"]
 margin_left = 279.456
@@ -103,7 +106,8 @@ margin_top = 290.493
 margin_right = 517.456
 margin_bottom = 318.493
 custom_fonts/font = ExtResource( 3 )
-text = "увидел загадочное явление"
+placeholder_text = "увидел загадочное явление"
+caret_blink = true
 
 [node name="line3" type="LineEdit" parent="gui/lines"]
 margin_left = 538.456
@@ -111,7 +115,8 @@ margin_top = 290.493
 margin_right = 757.456
 margin_bottom = 318.493
 custom_fonts/font = ExtResource( 3 )
-text = "в огороде"
+placeholder_text = "в огороде"
+caret_blink = true
 
 [node name="Button" type="Button" parent="gui"]
 margin_left = 40.0

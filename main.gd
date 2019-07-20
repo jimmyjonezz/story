@@ -27,9 +27,9 @@ func save_file(first: Array, second: Array, third: Array):
 	var save_game = File.new()
 	save_game.open("res://data.json", File.WRITE)
 	
-	var a = {"first" : first, "second" : second, "third" : third}
+	var new = {"first" : first, "second" : second, "third" : third}
 	
-	save_game.store_line(to_json(a))
+	save_game.store_line(to_json(new))
 	save_game.close()
 	
 func _input(event):
